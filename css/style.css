@@ -1,0 +1,373 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+a:hover{
+    color: #f25454;
+}
+ h1, h2, h3, h4, h5, h6  {
+        font-family: 'Poppins', sans-serif;
+ }
+
+.main-color{
+    background-color: #f25454 !important;
+}
+/***************** Start Home Section *********************/
+.navbar-social a:hover{
+    color: #f25454;
+}
+.navbar-nav a:hover{
+    color: #f25454;
+}
+nav{
+    border-bottom: 1px solid #ffff;
+}
+
+.my-navbar{
+    background-color: transparent;
+}
+
+.my-navbar a{
+    color: white;
+}
+
+
+.carousel-caption{
+    margin-bottom: 20%;
+}
+
+.carousel-caption h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #ffff;
+    font-size: 4.5rem;
+}
+ .home .setting{
+    width: 39px;
+    height: 39px;
+    left: 0;
+    top: 200px;
+    padding: 5px;
+    padding-top: 7px;
+    font-size: 20px;
+   }
+
+.down-icon {
+    width: 25px;
+    height: 45px;
+    border: 2px solid white;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    border-radius: 15px;
+    animation: scroll 3s ease-in-out infinite;
+}
+
+.down-icon::after {
+    content: "";
+    width: 3px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-50%);
+
+}
+@keyframes scroll {
+
+    0% {
+        bottom: 50px;
+    }
+
+    10% {
+        bottom: 100px;
+    }
+
+    20% {
+        bottom: 50px;
+    }
+
+    30% {
+        bottom: 80px;
+    }
+
+    40% {
+        bottom: 50px;
+    }
+
+    50% {
+        bottom: 70px;
+    }
+
+    60% {
+        bottom: 50px;
+    }
+
+    70% {
+        bottom: 60px;
+    }
+
+    80% {
+        bottom: 50px;
+    }
+
+    90% {
+        bottom: 50px;
+    }
+
+    100% {
+        bottom: 50px;
+    }
+}
+
+
+/***************** End Home Section *********************/
+
+
+
+/***************** Start About Section *********************/
+.title h2{
+    font-size: 4rem;
+    color: rgba(0, 0, 0, .06);
+    font-weight: 900;
+}
+.text-muted{
+    color: #999;
+}
+.col-lg-10 p{
+    margin-left: 180px !important;
+}
+.title h3{
+    font-size: 2.5rem;
+    bottom: 0;
+    font-weight: 750;
+}
+ h2::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: black;
+    width: 50px;
+    left: 48%;
+    bottom: 0px;
+    
+}
+
+.skill-item{
+    margin-block: 15px;
+}
+.progress{
+    height: 5px;
+    
+}
+.progress-one{
+    width: 80%;
+}
+.progress-two{
+    width: 95%;
+}
+.progress-three{
+    width: 85%;
+}
+.progress-four{
+    width: 70%;
+}
+
+/***************** End About Section *********************/
+
+/***************** Start Our Team Section *********************/
+
+.member-layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 84, 84,.85);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.member:hover .member-layer{
+    opacity: 1;
+}
+.member:hover img{
+    transform: scale(1.1);
+}
+#team h5:hover{
+    color: #f25454 ;
+}
+.member img{
+   transition: all 0.5s;
+}
+.social{
+    left: 30%;
+}
+.social a{
+    font-size: 16px !important;
+}
+.member-layer a{
+list-style: none;
+}
+.member-info h5 {
+    text-align: center;
+    margin-top: 20px;
+}
+.member-info p {
+    text-align: center;
+    color: #555;
+}
+
+
+/***************** End Our Team Section *********************/
+
+/***************** Start Services Section *********************/
+#services{
+    background-color: #fafafa;
+}
+.service-icon{
+    color: #f25454;
+    padding: 20px;
+    font-size: 30px;
+}
+.service p{
+ padding: 10px;
+ padding-left: 63px;
+}
+.service-name{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.service-name:hover{
+    color: #f25454;
+    
+}
+/***************** End Services Section *********************/
+
+/***************** Start Client Reviews Section *********************/
+
+.client img{
+width: 130px;
+height: 130px;
+padding: 10px;
+opacity: .5;
+}
+.review-content{
+font-size: 25px;
+}
+.review-text{
+    max-width: 900px;
+}
+/***************** Start End Reviews Section *********************/
+
+
+
+/***************** Start Get In Touch Section *********************/
+#contacts{
+    background-color: #fafafa;
+}
+.contact-content{
+font-size: 32px;
+line-height: 30px;
+color: #282828;
+
+}
+.contact-icon{
+    color: #f25454;
+    padding-right: 10px;
+    font-size: 40px;
+    line-height: 1rem;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    opacity: .9;
+}
+.contact-name{
+    font-size: px;
+    margin-bottom: 10px;
+}
+#contacts h4:hover{
+    color: #f25454;
+    
+}
+ hr{
+ width: 100%;
+ height: 1px;
+ color: rgba(0, 0, 0, .3);
+}
+.form-control{
+    height: 50px;
+    width: 100%;
+}
+#contacts .w-100{
+    height: 150px;
+}
+.contact-form{
+    color: rgba(0, 0, 0, .3);
+    border-color: rgba(0, 0, 0, .3) !important;
+}
+.email{
+    
+    font-size: 16px;
+    color: gray;
+}
+/***************** End Get In Touch Section *********************/
+
+
+
+
+/***************** Start Footer Section *********************/
+
+#footer{
+    background-image: url(../images/contact-details-mapp.png);
+    background-color: black;
+    
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer ul li a{
+    color: gray;
+}
+#footer ul li a:hover{
+    color: #f25454;
+}
+a{
+    text-decoration: none;
+    color:gray;
+}
+.btn-footer{
+    background-color: transparent ;
+    border: 2px solid #b0b0b0;
+    border-radius: 3px;
+    padding: 2px 10px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    font-size: 13px;
+
+}
+#footer-footer{
+    background-color: black;
+}
+.copyright{
+    height: 100px;
+}
+.link a{
+    color: white;
+    font-weight: bold;
+}
+#footer button:hover a{
+    color: #f25454;
+}
+#footer button:hover{
+ border-color: #f25454;
+
+}
+#footer-footer .link a:hover{
+    color: #f25454;
+}
+#footer-footer i:hover{
+    color: #f25454;
+}
+/***************** End  Footer Section *********************/
